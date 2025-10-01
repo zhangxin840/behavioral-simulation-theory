@@ -169,3 +169,4 @@ echo ""
 echo "• 仓库主页:"
 echo -e "  ${GREEN}https://github.com/zhangxin840/behavioral-simulation-theory${NC}"
 echo ""
+

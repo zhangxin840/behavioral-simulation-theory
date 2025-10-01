@@ -112,3 +112,4 @@ echo "   - QUICK_CONFIG.md - 快速配置指南"
 echo "   - GITHUB_SETUP_GUIDE.md - 完整配置说明"
 echo "   - TROUBLESHOOTING.md - 故障排除"
 echo ""
+
