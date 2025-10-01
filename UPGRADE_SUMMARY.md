@@ -162,6 +162,37 @@ Docusaurus 3 使用更严格的 MDX 解析器。在 Markdown 中使用以下字�
 
 ---
 
+## GitHub Actions 部署修复 · CI/CD Fix
+
+### 问题
+升级到 Docusaurus 3 后，GitHub Actions 部署失败：
+```
+Error: Minimum Node.js version not met :(
+You are using Node.js v18.20.8, Requirement: Node.js >=20.0.
+```
+
+### 修复
+1. **更新 `.github/workflows/deploy.yml`**
+   ```yaml
+   - node-version: 18  # 旧版本
+   + node-version: 20  # 新版本
+   ```
+
+2. **更新 `package.json`**
+   ```json
+   "engines": {
+     "node": ">=20.0"  // 从 ">=16.14" 更新
+   }
+   ```
+
+### 验证
+- ✅ 本地构建: 成功
+- ⏳ GitHub Actions: 等待推送验证
+
+详见 [DEPLOYMENT_FIX.md](./DEPLOYMENT_FIX.md)
+
+---
+
 ## 后续维护 · Maintenance
 
 ### 检查依赖更新
