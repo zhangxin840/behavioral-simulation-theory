@@ -1,6 +1,6 @@
-# 附录 D. 参考文献（References）
+# 附录 D. 参考文献
 
-## 学术论文（Academic Papers）
+## 学术论文
 
 ### 复杂系统与多主体建模
 - Holland, J. H. (1992). *Complex Adaptive Systems*. Daedalus, 121(1), 17-30.
@@ -27,7 +27,7 @@
 - Aral, S., & Walker, D. (2012). Identifying influential and susceptible members of social networks. *Science*, 337(6092), 337-341.
 - Eckles, D., Karrer, B., & Ugander, J. (2017). Design and analysis of experiments in networks: Reducing bias from interference. *Journal of Causal Inference*, 5(1).
 
-## 行业报告（Industry Reports）
+## 行业报告
 
 ### AI与代理技术
 - McKinsey Global Institute. (2023). *The Economic Potential of Generative AI: The Next Productivity Frontier*.
@@ -43,7 +43,7 @@
 - marktechpost.com. (2023). *Northeastern University × Amazon: Large Language Model Empowered Generative Agent for Simulating User Behavior in E-commerce*.
 - every.to. (2023). *Virtual Focus Groups: Using AI Agents for Content Strategy*.
 
-## 技术文档（Technical Documentation）
+## 技术文档
 
 ### 大型语言模型
 - OpenAI. (2023). *GPT-4 Technical Report*.
@@ -59,12 +59,12 @@
 - HuggingFace. (2023). *Evaluate Library for Model Evaluation*.
 - LangChain. (2024). *Agent Framework Documentation*.
 
-## 访谈与观点（Interviews & Perspectives）
+## 访谈与观点
 
 - Altman, S. (2023). Interview on AI agents and future of personalization. *The Tim Ferriss Show*.
 - Ng, A. (2023). Building AI agents that understand human behavior. *Stanford HAI Seminar Series*.
 
-## 在线资源（Online Resources）
+## 在线资源
 
 - arxiv.org - AI与机器学习预印本论文库
 - Papers with Code - 机器学习论文与代码实现

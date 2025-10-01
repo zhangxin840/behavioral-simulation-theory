@@ -62,10 +62,34 @@ manuscript/
 
 ## 部署 · Deployment
 
+### 🚀 一键发布（推荐）
+
+**完整发布流程**（包含内容同步）：
+```bash
+./publish.sh
+```
+自动完成：
+- ✅ 从 `/book/manuscript/` 同步最新内容
+- ✅ 构建验证
+- ✅ 提交并推送到 GitHub
+- ✅ 触发 GitHub Actions 自动部署
+
+**快速发布**（无交互，适合自动化）：
+```bash
+./quick-publish.sh
+# 或指定提交信息
+./quick-publish.sh "更新第三章内容"
+```
+
+**仅同步内容**（不发布）：
+```bash
+./sync-manuscript.sh
+```
+
 ### GitHub Pages 自动部署
 推送到 `main` 分支后，GitHub Actions 会自动构建并部署到 GitHub Pages。
 
-### 手动部署
+### 传统部署方式
 ```bash
 ./deploy.sh
 ```
@@ -96,6 +120,18 @@ manuscript/
 ---
 
 ## 维护指南 · Maintenance
+
+### 内容同步
+```bash
+# 从 /book/manuscript/ 同步最新内容
+./sync-manuscript.sh
+
+# 或手动同步
+rsync -av --delete \
+  --exclude='book-structure.md' \
+  --exclude='writing-style-guide.md' \
+  ../manuscript/ manuscript/
+```
 
 ### 更新依赖
 ```bash

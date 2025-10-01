@@ -164,11 +164,17 @@ git push
 ### 已完成 ✅ (2025-10-01 更新)
 - [x] **升级到 Docusaurus 3.9.1** - 完成！
 - [x] **升级 Node.js 到 v20 LTS** - 完成！
+- [x] **同步 manuscript 内容** - 44 个文件已同步！
+- [x] **自动化发布工具** - 完成！
+  - `publish.sh` - 完整发布流程（交互式）
+  - `quick-publish.sh` - 快速发布（无交互）
+  - `sync-manuscript.sh` - 仅同步内容
 - [x] 删除冗余文档文件
 - [x] 清理重复的部署脚本
 - [x] 移除构建产物目录
 - [x] 更新 .gitignore
 - [x] 精简 README.md
+- [x] 创建发布指南 `PUBLISH_GUIDE.md`
 
 ### 低优先级
 - [ ] 评估是否需要自定义主题组件

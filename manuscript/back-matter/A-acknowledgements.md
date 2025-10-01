@@ -1,4 +1,4 @@
-# 附录 A. 致谢（Acknowledgements）
+# 附录 A. 致谢
 
 ## 理论启发与学术致敬
 

@@ -1,4 +1,4 @@
-# 附录 C. 案例速览（Appendix Snapshots）
+# 附录 C. 案例速览
 
 ## C.1 B2C消费领域案例矩阵
 
